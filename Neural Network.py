@@ -91,5 +91,5 @@ for i in testing_data:
     corr_ans = correct_ans(i)
     test_ans = test_answers(i)
     accr = accuracyfun(corr_ans, test_ans)
-    print("##Training## :: ", "For input=", i, "| Correct Ans=", corr_ans, "| Predicted Ans=", test_ans, "| Accuracu=", accr)
+    print("##Training## :: ", "For input=", i, "| Correct Ans=", corr_ans, "| Predicted Ans=", test_ans, "| Accuracy=", accr)
 
