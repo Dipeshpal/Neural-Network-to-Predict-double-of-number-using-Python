@@ -2,6 +2,7 @@
 # Instead of getting input from user you can initialize list of multiples input
 # Getting input from user
 
+print("Neural Network to predict double of number")
 inputs = input("Enter a numbers separated by space: ")
 t = 2
 
@@ -76,7 +77,7 @@ for i in training_data:
 
     avg = append_all_weight(weight)
 
-    file = open("Weight.txt", "w")
+    file = open("Average Weight.txt", "w")
     avg = str(avg)
     file.write(avg)
     file.close()
