@@ -1,7 +1,7 @@
 # Neural Network to predict double of number
 # Instead of getting input from user you can initialize list of multiples input
-# Getting input from user
 
+# Getting input from user
 print("Neural Network to predict double of number")
 # This will take input from user as string
 # and split by space ' ' then convert elements into integer and save elements into list li
