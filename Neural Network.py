@@ -3,14 +3,9 @@
 # Getting input from user
 
 print("Neural Network to predict double of number")
-inputs = input("Enter a numbers separated by space: ")
-
-# Str string to Int list
-li = []
-temp = inputs.split(" ")
-for i in temp:
-    a = int(i)
-    li.append(a)
+# This will take input from user as string
+# and split by space ' ' then convert elements into integer and save elements into list li
+li = list(map(int, input("Enter no. separated by space: ").split(" ")))
 
 
 def split_data(li):
