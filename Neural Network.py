@@ -8,6 +8,7 @@ print("Neural Network to predict double of number")
 li = list(map(int, input("Enter no. separated by space: ").split(" ")))
 
 
+# Split li into training_data and testing_data
 def split_data(li):
     length = len(li)
     part = abs(length/2)
