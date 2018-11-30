@@ -11,16 +11,9 @@ li = list(map(int, input("Enter no. separated by space: ").split(" ")))
 # Split li into training_data and testing_data
 def split_data(li):
     length = len(li)
-    part = abs(length/2)
-    training_data = []
-    testing_data = []
-    count = 0
-    for i in li:
-        if count < part:
-            training_data.append(i)
-        else:
-            testing_data.append(i)
-        count += 1
+    part = int(abs(length/2))
+    training_data = li[:part]
+    testing_data = li[part:]
 
     return training_data, testing_data
 
